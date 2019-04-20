@@ -1,0 +1,16 @@
+'.platform-linux atom-text-editor':
+  'ctrl-alt-r': 'hydrogen:restart-kernel'
+  'ctrl-alt-k': 'hey-pane:toggle-focus-of-active-pane'
+  'ctrl-alt-shift-k': 'hydrogen-launcher:launch-terminal'
+  'ctrl-shift-enter': 'hydrogen:run-all'
+  'ctrl-shift-d': 'find-and-replace:select-all'
+  'ctrl-shift-l': 'editor:split-selections-into-lines'
+
+'body':
+  'ctrl-alt-(': 'window:focus-pane-on-left'
+  'ctrl-alt-)': 'window:focus-pane-on-right'
+  'ctrl-alt-shift-down': 'window:focus-pane-below'
+  'ctrl-alt-shift-up': 'window:focus-pane-above'
+  'ctrl-alt-shift-tab': 'window:focus-previous-pane'
+  'ctrl-alt-tab': 'window:focus-next-pane'
+  

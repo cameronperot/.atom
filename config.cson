@@ -1,0 +1,83 @@
+"*":
+  Hydrogen:
+    autoScroll: false
+    outputAreaFontSize: 14
+    startDir: "dirOfFile"
+  "atom-beautify":
+    general: {}
+  "autocomplete-plus":
+    confirmCompletion: "tab always, enter when suggestion explicitly selected"
+  core:
+    audioBeep: false
+    disabledPackages: [
+      "language-gfm"
+      "exception-reporting"
+      "background-tips"
+      "metrics"
+      "uber-juno"
+      "julia-client"
+    ]
+    projectHome: "/home/user/rsync/programming"
+    telemetryConsent: "no"
+  editor:
+    fontFamily: "Source Code Pro"
+    fontSize: 15
+    scrollPastEnd: true
+    showInvisibles: true
+    softTabs: false
+    softWrap: true
+    tabLength: 4
+    tabType: "hard"
+  "file-icons":
+    onChanges: true
+  "hey-pane":
+    expandedWidth: 97
+  "highlight-selected": {}
+  "hydrogen-launcher": {}
+  "julia-client":
+    consoleOptions:
+      rendererType: true
+    firstBoot: false
+    juliaOptions: {}
+    juliaPath: "/opt/miniconda3/envs/jupyter/julia-1.1.0/bin/julia"
+    uiOptions:
+      enableMenu: true
+  latex:
+    openResultAfterBuild: false
+    openResultInBackground: false
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "platformio-ide-terminal":
+    core:
+      workingDirectory: "Active File"
+    style:
+      animationSpeed: 2
+      defaultPanelHeight: "450px"
+      theme: "city-lights"
+  script:
+    stopOnRerun: true
+  "spell-check":
+    grammars: [
+      "source.asciidoc"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      "source.rst"
+      "text.restructuredtext"
+      "text.tex.latex"
+    ]
+    locales: [
+      "en-US"
+    ]
+  "tool-bar":
+    position: "Left"
+    visible: false
+  "tree-view": {}
+  "uber-juno":
+    disable: true
+  "vim-mode-plus": {}
+  welcome:
+    showOnStartup: false
