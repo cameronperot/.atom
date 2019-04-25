@@ -13,4 +13,6 @@
   'ctrl-alt-shift-up': 'window:focus-pane-above'
   'ctrl-alt-shift-tab': 'window:focus-previous-pane'
   'ctrl-alt-tab': 'window:focus-next-pane'
-  
+
+'atom-text-editor.vim-mode-plus.insert-mode':
+  'ctrl-c': 'core:copy'
