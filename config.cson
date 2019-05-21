@@ -16,6 +16,9 @@
       "metrics"
       "uber-juno"
       "julia-client"
+      "hydrogen-launcher"
+      "tool-bar"
+      "markdown-preview"
     ]
     projectHome: "/home/user/rsync/programming"
     telemetryConsent: "no"
@@ -23,6 +26,7 @@
     fontFamily: "Source Code Pro"
     fontSize: 15
     scrollPastEnd: true
+    showIndentGuide: true
     showInvisibles: true
     softTabs: false
     softWrap: true
@@ -45,6 +49,12 @@
   latex:
     openResultAfterBuild: false
     openResultInBackground: false
+  "markdown-preview-plus":
+    mathConfig:
+      enableLatexRenderingByDefault: true
+    saveConfig:
+      defaultSaveFormat: "pdf"
+    useGitHubStyle: true
   minimap:
     plugins:
       "highlight-selected": true
@@ -55,7 +65,6 @@
     style:
       animationSpeed: 2
       defaultPanelHeight: "450px"
-      theme: "city-lights"
   script:
     stopOnRerun: true
   "spell-check":
