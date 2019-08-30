@@ -14,5 +14,9 @@
   'ctrl-alt-shift-tab': 'window:focus-previous-pane'
   'ctrl-alt-tab': 'window:focus-next-pane'
 
+'atom-workspace':
+  'f11': 'window:toggle-full-screen'
+  'ctrl-f11': 'debugger:step-into'
+
 'atom-text-editor.vim-mode-plus.insert-mode':
   'ctrl-c': 'core:copy'

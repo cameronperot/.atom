@@ -1,10 +1,27 @@
 "*":
   Hydrogen:
     autoScroll: false
+    gateways: '''
+      [{
+        "name": "Desktop",
+        "options": {
+          "baseUrl": "http://10.8.0.2:8888/jupyter",
+        }
+      },
+      {
+        "name": "dev",
+        "options": {
+          "baseUrl": "http://10.8.1.1:8888/jupyter",
+        }
+      }]
+    '''
     outputAreaFontSize: 14
     startDir: "dirOfFile"
   "atom-beautify":
     general: {}
+  "atom-clock":
+    dateFormat: "HH:mm"
+    showOnlyInFullscreen: true
   "autocomplete-plus":
     confirmCompletion: "tab always, enter when suggestion explicitly selected"
   core:
@@ -19,12 +36,16 @@
       "hydrogen-launcher"
       "tool-bar"
       "markdown-preview"
+      "git-plus"
+      "atom-beautify"
+      "remote-sync"
     ]
     projectHome: "/home/user/rsync/programming"
     telemetryConsent: "no"
   editor:
     fontFamily: "Source Code Pro"
-    fontSize: 15
+    fontSize: 16
+    preferredLineLength: 88
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
@@ -38,6 +59,10 @@
     expandedWidth: 97
   "highlight-selected": {}
   "hydrogen-launcher": {}
+  "ide-python":
+    pylsPlugins:
+      pyflakes: {}
+    python: "/opt/miniconda3/bin/python"
   "julia-client":
     consoleOptions:
       rendererType: true
@@ -65,6 +90,12 @@
     style:
       animationSpeed: 2
       defaultPanelHeight: "450px"
+    toggles:
+      autoClose: true
+  "python-black": {}
+  "remote-sync":
+    foldLogPanel: true
+    monitorFileAnimation: false
   script:
     stopOnRerun: true
   "spell-check":
@@ -90,3 +121,4 @@
   "vim-mode-plus": {}
   welcome:
     showOnStartup: false
+  whitespace: {}
